@@ -1,0 +1,13 @@
+<mat-card class="image-card">
+
+  <mat-card-header>
+    <mat-card-title>{{image.title}}</mat-card-title>
+  </mat-card-header>
+
+  <img class="pointer" mat-card-image [src]="imgBase64" alt="{{image.desc}}">
+
+  <mat-card-content>
+    <p class="description-font">{{image.keywords}}</p>
+  </mat-card-content>
+
+</mat-card>

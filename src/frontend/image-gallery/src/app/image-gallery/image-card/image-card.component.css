@@ -1,0 +1,16 @@
+.image-card {
+  width: 150px;
+  text-align: left;
+}
+
+.subtitle-font {
+  font-size: x-small;
+}
+
+.description-font {
+  font-size: x-small;
+}
+
+.pointer {
+  cursor: pointer;
+}
